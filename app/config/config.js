@@ -1,5 +1,5 @@
 export const PORT = 5050;
-export const DATABASE = 'mongodb+srv://test123:test123@cluster0.4loft.mongodb.net/Mern06TaskAPI';
+export const DATABASE = 'mongodb+srv://test123:test123@cluster0.4loft.mongodb.net/Mern06Ecommerce';
 export const JWT_KEY = 'ABCD123456';
 export const JWT_EXPIRE_TIME = 30*24*60*60;
 
@@ -19,6 +19,15 @@ export const URL_ENCODE = true;
 
 export const REQUEST_TIME = 20*60*1000;
 export const REQUEST_NUMBER = 2000;
+
+
+export const STORE_ID = "";
+export const STORE_PASSWORD = "";
+export const CURRENCY = "BDT";
+export const SUCCESS_URL = "";
+export const CANCEL_URL = "";
+export const INIT_URL = "";
+
 
 
 

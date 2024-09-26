@@ -38,6 +38,6 @@ mongoose.connect(DATABASE,{autoIndex:true}).then(() => {
 app.use('/api',router);
 
 app.listen(PORT, () =>{
-    console.log("Server running on" + PORT)
+    console.log("Server running on " + PORT)
 })
 
